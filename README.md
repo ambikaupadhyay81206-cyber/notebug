@@ -1,4 +1,4 @@
-# 🐞 notebug
+# notebug
 
 > A mindful, full-stack note-taking web application with rich-text editing, Google Keep-style pinning, smart archiving, 15-day retention bin, built-in OCR text extraction, and PDF export.
 
