@@ -1,10 +1,10 @@
-notebug
+# 🐞 notebug
 
-A mindful, full-stack note-taking web application with rich-text editing, Google Keep-style pinning, smart archiving, 15-day retention bin, built-in OCR text extraction, and PDF export.
+> A mindful, full-stack note-taking web application with rich-text editing, Google Keep-style pinning, smart archiving, 15-day retention bin, built-in OCR text extraction, and PDF export.
 
 ---
 
-# Key Features
+## Key Features
 
 - **Rich Text Editor**: Full styling support (Bold, Italic, Underline), custom typography (Inter, Arial, Georgia, Verdana), and flexible font sizing.
 - **Google Keep-Style Pinning**: Anchor high-priority notes to the top of your workspace, automatically organized into **PINNED** and **OTHERS** sections.
@@ -18,7 +18,7 @@ A mindful, full-stack note-taking web application with rich-text editing, Google
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 - **Frontend**: React 19, TypeScript, Vite, Tiptap Editor, Lucide Icons, Tesseract.js
 - **Backend**: Java 21, Spring Boot, Spring Security (JWT Authentication), Spring Data JPA
@@ -26,20 +26,20 @@ A mindful, full-stack note-taking web application with rich-text editing, Google
 
 ---
 
-# Getting Started
+## Getting Started
 
-# Prerequisites
+### Prerequisites
 - **Java 21+** (JDK)
 - **Node.js 18+** & **npm**
 - **PostgreSQL** running locally on port `5432` with a database named `notes_app`
 
-# 1. Database Setup
+### 1. Database Setup
 Ensure PostgreSQL is running and create the database:
 ```sql
 CREATE DATABASE notes_app;
 ```
 
-# 2. Start the Backend
+### 2. Start the Backend
 Open a terminal and run:
 ```powershell
 cd backend
@@ -47,7 +47,7 @@ cd backend
 ```
 *(Backend runs on `http://localhost:8080`)*
 
-# 3. Start the Frontend
+### 3. Start the Frontend
 In a second terminal window, run:
 ```powershell
 cd frontend
@@ -60,7 +60,7 @@ Open **`http://localhost:5173`** in your browser to start using **notebug**.
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 notes app/
